@@ -1687,7 +1687,7 @@ async function main() {
 
 // Set an environment variable to indicate we're in MCP mode
 // This helps prevent console.log from interfering with stdio communication
-process.env.MCP_MODE = 'true';
+process.env.MCP_MODE = 'false';
 
 // Run the server
 main(); 
